@@ -5,11 +5,11 @@
     These values will be used when calling the ExecuteM365SAT function.
 #>
 $ScriptConfig = @{
-    OutPath          = "/home/example/m365sat/out"                  # Change this path based on your OS (e.g., "C:\Out" for Windows)
-    Username         = "example@example.org"                        # Replace with your username
-    EnvironmentType  = 'M365','AZURE'                               # Specify the environment type (e.g., M365, AZURE, or All)
+    OutPath          = "C:\Temp\B.Uni\BUniM365SAT"                  # Change this path based on your OS (e.g., "C:\Out" for Windows)
+    Username         = "tadeusou.cloud@bunidigital.onmicrosoft.com"                        # Replace with your username
+    EnvironmentType  = 'All'                               # Specify the environment type (e.g., M365, AZURE, or All)
     Modules          = "All"                                        # Specify the modules to include (e.g., "All" or specific modules (e.g. 'Azure', 'Exchange', 'Office365', 'Sharepoint', 'Teams' ))
-    LicenseMode      = "E3"                                         # Specify the license mode (e.g., "E3", "E5" or "All")
+    LicenseMode      = "All"                                         # Specify the license mode (e.g., "E3", "E5" or "All")
     LicenseLevel     = "All"                                        # Specify the license level (e.g. "L1", "L2" or "All")
     ReportType       = "HTML"                                       # Specify the report type (e.g., "CSV", "HTML")
     AllowLogging     = [switch]::Present                            # Enable logging if needed (true/false)
